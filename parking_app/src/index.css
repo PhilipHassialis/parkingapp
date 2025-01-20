@@ -54,3 +54,22 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+.application-card {
+    padding: 1em;
+    box-shadow: 3px 3px 3px 3px gray;
+    border-radius: 5px;
+}
+
+.application-card-content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(33, 84, 135);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.application-card-content a {
+    color: rgb(33, 84, 135);
+    text-decoration: none;
+}
