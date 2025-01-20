@@ -1,3 +1,4 @@
+import { Outlet } from "react-router";
 import ApplicationNavBar from "../components/ApplicationNavBar";
 import SideBarMenu from "../components/SideBarMenu";
 
@@ -6,7 +7,14 @@ const ApplicationLayout = () => {
     return (
         <>
         <ApplicationNavBar />
-        <SideBarMenu />
+        <div style={{display: "flex"}}>
+            <span>
+                <SideBarMenu />
+            </span>
+            <span>
+                <Outlet />
+            </span>
+        </div>
         </>
     );
 

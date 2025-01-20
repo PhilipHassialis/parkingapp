@@ -1,3 +1,56 @@
 body {
     background-color: rgb(34, 85, 136);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.titleText {
+    color: rgb(255,202,30);
+}
+
+.sidebarmenuitem {
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid blue;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+    min-width: 14em;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.sidebarmenuitem:hover {
+    background-color: rgb(245, 219, 177);
+    font-weight: bold;
+    color: blue;
+    box-shadow: 2px 2px 2px 2px gray;
+    text-shadow: 2px 2px lightskyblue
+}
+
+.applicationnavbar {
+    background-color: rgb(230,230,230);
+    color: blue;
+    padding: 10px;
+    border: 1px solid blue;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.user-hero-card-info {
+    font: 1rem sans-serif;
+}
+
+.user-hero-card {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }

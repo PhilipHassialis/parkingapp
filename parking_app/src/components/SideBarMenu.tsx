@@ -1,8 +1,10 @@
 import SideBarMenuItem from "./SideBarMenuItem";
+import UserHeroCard from "./UI/UserHeroCard";
 
 const SideBarMenu = () => {
 
     return (<div>
+        <UserHeroCard user={{name: "The user name", role: "The user role", image:""} } />
         <SideBarMenuItem title="Parking Allocation" />
         <SideBarMenuItem title="Cars" />
         <SideBarMenuItem title="Complaints" />

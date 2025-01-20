@@ -6,7 +6,7 @@ type SideBarMenuItemProps = {
 const SideBarMenuItem = ({ title }: SideBarMenuItemProps) => {
 
     return (
-        <div>
+        <div className="sidebarmenuitem">
             {title}
         </div>
     )
