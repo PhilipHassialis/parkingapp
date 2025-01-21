@@ -1,14 +1,41 @@
 // TODO: add a proper menu item list entry
 export const mockMenuItems = [
-    "Parking Allocations",
-    "Cars",
-    "Complaints",
-    "Menu 04",
-    "Menu 05",
-    "Menu 06",
-    "Menu 07",
-    "Menu 08",
-    "Menu 09"
+    {
+        menuEntry: "Parking Allocations",
+        relativeUrl: "/parking-allocations",
+    },
+    {
+        menuEntry: "Cars",
+        relativeUrl: "/cars",
+    },
+    {
+        menuEntry: "Complaints",
+        relativeUrl: "/complaints",
+    },
+    {
+        menuEntry: "Menu 04",
+        relativeUrl: "/menu04",
+    },
+    {
+        menuEntry: "Menu 05",
+        relativeUrl: "/menu05",
+    },
+    {
+        menuEntry: "Menu 06",
+        relativeUrl: "/menu06",
+    },
+    {
+        menuEntry: "Menu 07",
+        relativeUrl: "/menu07",
+    },
+    {
+        menuEntry: "Menu 08",
+        relativeUrl: "/menu08",
+    },
+    {
+        menuEntry: "Menu 09",
+        relativeUrl: "/menu09",
+    }
 ]
 
 // TODO: fetch actual notifications from the backend

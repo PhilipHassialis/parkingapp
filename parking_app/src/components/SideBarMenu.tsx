@@ -8,7 +8,7 @@ const SideBarMenu = () => {
         <UserHeroCard user={{name: "The user name", role: "The user role", image:""} } />
         {mockMenuItems.map((item, index) => {
             return (<div key={index}>
-                <SideBarMenuItem title={item} />
+                <SideBarMenuItem title={item.menuEntry} />
             </div>)
         })}
     </div>)

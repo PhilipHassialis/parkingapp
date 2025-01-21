@@ -8,6 +8,15 @@ body {
     color: rgb(255,202,30);
 }
 
+.linkText {
+    color: rgb(33, 84, 135);
+    text-decoration: none;
+}
+
+.linkText:visited {
+    color: rgb(33, 84, 135);
+}
+
 .sidebarmenuitem {
     background-color: white;
     color: rgb(33, 84, 135);
@@ -15,14 +24,17 @@ body {
     padding: 15px 20px 15px 20px;
     border: 1px solid blue;
     text-align: center;
-    text-decoration: none;
     display: block;
     margin: 10px;
     border-radius: 5px;
     min-width: 14em;
     font-size: 1.5em;
     font-weight: bold;
-    
+}
+
+.sidebarmenuitem a {
+    color: rgb(33, 84, 135);
+    text-decoration: none;
 }
 
 .sidebarmenuitem:hover {
