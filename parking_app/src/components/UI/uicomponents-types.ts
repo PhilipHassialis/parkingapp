@@ -1,3 +1,5 @@
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+
 export type User = {
     name: string;
     role: string;
@@ -10,3 +12,9 @@ export type ApplicationCardContent = {
     relativeUrl: string;
     bgColour: string;
 }
+
+export type PanelTitleProps = {
+    title: string;
+    icon: IconDefinition;
+}
+
