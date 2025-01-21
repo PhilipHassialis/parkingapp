@@ -5,12 +5,12 @@ export const mockMenuItems = [
         relativeUrl: "/parking-allocations",
     },
     {
-        menuEntry: "Cars",
-        relativeUrl: "/cars",
+        menuEntry: "My Car",
+        relativeUrl: "/my-car",
     },
     {
-        menuEntry: "Complaints",
-        relativeUrl: "/complaints",
+        menuEntry: "Parking Complaints",
+        relativeUrl: "/parking-complaints",
     },
     {
         menuEntry: "Menu 04",
