@@ -130,8 +130,7 @@ body {
 }
 
 .landing-menu-item:hover {
-    
-    text-shadow: 2px 2px lightskyblue;
+    text-shadow: 2px 2px lightgray;
 }
 
 .landing-menu-logout {
@@ -141,4 +140,8 @@ body {
     text-align: left;
     margin: 0.5em;
     cursor: pointer;
+}
+
+.landing-menu-logout:hover {
+    text-shadow: 2px 2px lightgray;
 }
