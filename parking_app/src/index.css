@@ -168,6 +168,11 @@ body {
     color: rgb(33, 84, 135);
 }
 
+.landing-calendar-item:hover {
+    box-shadow: 2px 2px 2px 2px lightgray;
+    cursor: pointer;
+}
+
 .landing-calendar-item-dayname.normal {
     color: rgb(33, 84, 135);
 }
@@ -176,11 +181,11 @@ body {
     color: white;
 }
 
-.landing-calendar-item.normal {
+.landing-calendar-item.otherDay {
     background-color: white;
 }
 
-.landing-calendar-item.active {
+.landing-calendar-item.currentDay {
     background-color: rgb(213, 196, 231);
 }
 
@@ -196,3 +201,16 @@ body {
     max-width: 50%;
 }
 
+.landing-calendar-item-icon {
+    font-size: 2em;
+    text-align: center;
+}
+
+.landing-calendar-item-icon.active {
+    color: rgb(33, 84, 135);
+    cursor: pointer;
+}
+
+.landing-calendar-item-icon.normal {
+    color: rgb(213, 196, 231);
+}

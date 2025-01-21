@@ -1,3 +1,4 @@
+// TODO: add a proper menu item list entry
 export const mockMenuItems = [
     "Parking Allocations",
     "Cars",
@@ -10,6 +11,7 @@ export const mockMenuItems = [
     "Menu 09"
 ]
 
+// TODO: fetch actual notifications from the backend
 export const mockNotifications = [
     {
         id: 1,

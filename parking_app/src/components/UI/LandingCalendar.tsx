@@ -12,8 +12,13 @@ const LandingCalendar = () => {
             const date = new Date(firstDate.getFullYear(), firstDate.getMonth(), firstDate.getDate() + i);
             week.push(date);
         }
+        // TODO: fetch actual parking events from the backend
+        // TODO: provide a proper onClickFn
         return week.map((date, index) => {
-            return (<LandingCalendarItem date={date} key={index} />)
+            return (<LandingCalendarItem date={date} 
+                key={index}
+                hasParkingEvent={index%2===0}  
+                onClickFn={(x)=>console.log(x)} />)
         })
     }
 

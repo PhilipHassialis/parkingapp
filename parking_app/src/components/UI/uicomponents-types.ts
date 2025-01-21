@@ -28,4 +28,6 @@ export type NotificationProps = {
 
 export type LandingCalendarItemProps = {
     date: Date;
+    hasParkingEvent: boolean;
+    onClickFn?: (parkingEventDate: Date) => void;
 }
