@@ -5,38 +5,50 @@ import PanelTitle from "../../components/UI/PanelTitle";
 import { mockNotifications } from "../../data/mockData";
 import NotificationList from "../../components/UI/NotificationList";
 import LandingMenu from "../../components/UI/LandingMenu";
+import LandingCalendar from "../../components/UI/LandingCalendar";
 
 const LandingPage = () => {
 
 
-    return (
+    return (<>
         <div style={{ display: "flex", justifyContent: "center" }}>
             <LandingMenu />
-            <Panel bgColor="#F2FFF4">
-                
-                <PanelTitle icon={faStore} title="Applications" />
-                <ApplicationCard title="Application"
-                    content="Go to the application"
-                    relativeUrl="/application"
-                    bgColour="lightgrey" />
-                <ApplicationCard title="Parking Complaints"
-                    content="Register a parking complaint against a car already parked at your designated spot"
-                    relativeUrl="/parking-complaints"
-                    bgColour="#98C5C2" />
-                <ApplicationCard title="Parking Allocation"
-                    content="Allocate a parking spot to a car"
-                    relativeUrl="/parking-allocation"
-                    bgColour="#D5C4E7" />
-                <ApplicationCard title="My Car"
-                    content="Register your car in the system"
-                    relativeUrl="/my-car"
-                    bgColour="#D5E6F6" />
-            </Panel>
+            <div className="landing-page-central-content">
+                <Panel bgColor="#F9F3FF">
+                    <PanelTitle icon={faStore} title="Parking Status" />
+                    <LandingCalendar />
+                </Panel>
+                <Panel bgColor="#F2FFF4">
+
+                    <PanelTitle icon={faStore} title="Applications" />
+                    <div className="applications-card-row">
+                        <ApplicationCard title="Application"
+                            content="Go to the application"
+                            relativeUrl="/application"
+                            bgColour="lightgrey" />
+                        <ApplicationCard title="Parking Complaints"
+                            content="Register a parking complaint against a car already parked at your designated spot"
+                            relativeUrl="/parking-complaints"
+                            bgColour="#98C5C2" />
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-evenly", flexDirection: "row", flexWrap: "wrap" }}>
+                        <ApplicationCard title="Parking Allocation"
+                            content="Allocate a parking spot to a car"
+                            relativeUrl="/parking-allocation"
+                            bgColour="#D5C4E7" />
+                        <ApplicationCard title="My Car"
+                            content="Register your car in the system"
+                            relativeUrl="/my-car"
+                            bgColour="#D5E6F6" />
+                    </div>
+                </Panel>
+            </div>
             <Panel bgColor="#D5E6F6">
                 <PanelTitle icon={faBell} title="Notifications" />
                 <NotificationList notifications={mockNotifications} />
             </Panel>
         </div>
+    </>
     );
 
 }

@@ -26,3 +26,6 @@ export type NotificationProps = {
     date: string;
 }
 
+export type LandingCalendarItemProps = {
+    date: Date;
+}
