@@ -2,7 +2,7 @@ import { faExclamationCircle, faExclamationTriangle, faInfoCircle, faXmark } fro
 import { NotificationProps } from "./uicomponents-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Notification = ({ title, type }: NotificationProps) => {
+const Notification = ({ title, type, date }: NotificationProps) => {
 
     return (
         <div className="notification">

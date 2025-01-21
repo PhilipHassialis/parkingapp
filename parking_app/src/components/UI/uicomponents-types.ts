@@ -23,5 +23,6 @@ export type NotificationType = "info" | "warning" | "error" | "success";
 export type NotificationProps = {
     title: string;
     type: NotificationType;
+    date: string;
 }
 

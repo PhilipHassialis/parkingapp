@@ -2,10 +2,11 @@ import { faBell, faStore } from "@fortawesome/free-solid-svg-icons";
 import ApplicationCard from "../../components/UI/ApplicationCard";
 import Panel from "../../components/UI/Panel";
 import PanelTitle from "../../components/UI/PanelTitle";
-import Notification from "../../components/UI/Notification";
 import { mockNotifications } from "../../data/mockData";
+import NotificationList from "../../components/UI/NotificationList";
 
 const LandingPage = () => {
+
 
     return (
         <div style={{ display: "flex", justifyContent: "center" }}>
@@ -30,9 +31,7 @@ const LandingPage = () => {
             </Panel>
             <Panel bgColor="#D5E6F6">
                 <PanelTitle icon={faBell} title="Notifications" />
-                {mockNotifications.map((notification, index) => {
-                    return <Notification key={index} title={notification.title} type={notification.type} />                    
-                })}
+                <NotificationList notifications={mockNotifications} />
             </Panel>
         </div>
     );

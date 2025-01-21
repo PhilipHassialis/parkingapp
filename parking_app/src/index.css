@@ -103,3 +103,10 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.notification-date-title {
+    color: rgb(33, 84, 135);
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.5em;
+}
