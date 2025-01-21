@@ -1,8 +1,8 @@
 import { User } from "./uicomponents-types";
 
-const UserHeroCard = ({ user }: { user: User }) => {
+const UserHeroCard = ({ user, isLanding }: { user: User, isLanding:boolean }) => {
     return (
-        <div className="user-hero-card">
+        <div className={`user-hero-card ${isLanding ? "landing" : ""}`}>
             <div className="user-hero-card-image">
                 {user.image ?
                     (<img src={user.image} alt={user.name} />) : (

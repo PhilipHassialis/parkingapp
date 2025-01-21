@@ -6,13 +6,19 @@ import { mockNotifications } from "../../data/mockData";
 import NotificationList from "../../components/UI/NotificationList";
 import LandingMenu from "../../components/UI/LandingMenu";
 import LandingCalendar from "../../components/UI/LandingCalendar";
+import UserHeroCard from "../../components/UI/UserHeroCard";
 
 const LandingPage = () => {
 
 
     return (<>
         <div style={{ display: "flex", justifyContent: "center" }}>
-            <LandingMenu />
+            <div className="landing-page-left content">
+                <Panel bgColor="white">
+                <UserHeroCard user={{ name: "The user name", role: "The user role", image: "" }} isLanding={true} />
+                </Panel>
+                <LandingMenu />
+            </div>
             <div className="landing-page-central-content">
                 <Panel bgColor="#F9F3FF">
                     <PanelTitle icon={faStore} title="Parking Status" />

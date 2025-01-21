@@ -5,7 +5,7 @@ import UserHeroCard from "./UI/UserHeroCard";
 const SideBarMenu = () => {
 
     return (<div>
-        <UserHeroCard user={{name: "The user name", role: "The user role", image:""} } />
+        <UserHeroCard isLanding={false} user={{name: "The user name", role: "The user role", image:""}} />
         {mockMenuItems.map((item, index) => {
             return (<div key={index}>
                 <SideBarMenuItem title={item.menuEntry} />
