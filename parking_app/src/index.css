@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(34, 85, 136);
+    background-color: rgb(34, 85, 135);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -88,4 +88,18 @@ body {
     padding: 1em;
     border-radius: 5px;
     box-shadow: 3px 3px 3px 3px gray;
+}
+
+.notification {
+    color: rgb(33, 84, 135);
+    background-color: #FFFFFF;
+    margin-top: 0.5em;
+    min-width: 20em;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px gray;
+    display: flex;
+    justify-content: space-between;
 }

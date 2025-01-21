@@ -18,3 +18,10 @@ export type PanelTitleProps = {
     icon: IconDefinition;
 }
 
+export type NotificationType = "info" | "warning" | "error" | "success";
+
+export type NotificationProps = {
+    title: string;
+    type: NotificationType;
+}
+
