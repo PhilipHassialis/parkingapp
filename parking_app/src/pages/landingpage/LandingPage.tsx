@@ -4,13 +4,16 @@ import Panel from "../../components/UI/Panel";
 import PanelTitle from "../../components/UI/PanelTitle";
 import { mockNotifications } from "../../data/mockData";
 import NotificationList from "../../components/UI/NotificationList";
+import LandingMenu from "../../components/UI/LandingMenu";
 
 const LandingPage = () => {
 
 
     return (
         <div style={{ display: "flex", justifyContent: "center" }}>
+            <LandingMenu />
             <Panel bgColor="#F2FFF4">
+                
                 <PanelTitle icon={faStore} title="Applications" />
                 <ApplicationCard title="Application"
                     content="Go to the application"

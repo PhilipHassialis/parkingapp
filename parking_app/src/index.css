@@ -2,7 +2,6 @@ body {
     background-color: rgb(34, 85, 135);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .titleText {
@@ -11,7 +10,7 @@ body {
 
 .sidebarmenuitem {
     background-color: white;
-    color: blue;
+    color: rgb(33, 84, 135);
     cursor: pointer;
     padding: 15px 20px 15px 20px;
     border: 1px solid blue;
@@ -29,14 +28,13 @@ body {
 .sidebarmenuitem:hover {
     background-color: rgb(245, 219, 177);
     font-weight: bold;
-    color: blue;
     box-shadow: 2px 2px 2px 2px gray;
     text-shadow: 2px 2px lightskyblue
 }
 
 .applicationnavbar {
     background-color: rgb(230,230,230);
-    color: blue;
+    color: rgb(33, 84, 135);
     padding: 10px;
     border: 1px solid blue;
     text-decoration: none;
@@ -109,4 +107,38 @@ body {
     font-size: 1em;
     font-weight: bold;
     margin: 0.5em;
+}
+
+.landing-menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em 1em 2em 1em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px gray;
+    margin: 1em;
+}
+
+.landing-menu-item {
+    color:rgb(33, 84, 135);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.landing-menu-item:hover {
+    
+    text-shadow: 2px 2px lightskyblue;
+}
+
+.landing-menu-logout {
+    color:rgb(33, 84, 135);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0.5em;
+    cursor: pointer;
 }

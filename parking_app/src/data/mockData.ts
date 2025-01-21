@@ -1,3 +1,15 @@
+export const mockMenuItems = [
+    "Parking Allocations",
+    "Cars",
+    "Complaints",
+    "Menu 04",
+    "Menu 05",
+    "Menu 06",
+    "Menu 07",
+    "Menu 08",
+    "Menu 09"
+]
+
 export const mockNotifications = [
     {
         id: 1,
