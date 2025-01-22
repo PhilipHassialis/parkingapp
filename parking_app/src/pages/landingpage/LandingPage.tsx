@@ -34,17 +34,17 @@ const LandingPage = () => {
                             bgColour="lightgrey" />
                         <ApplicationCard title="Parking Complaints"
                             content="Register a parking complaint against a car already parked at your designated spot"
-                            relativeUrl="/parking-complaints"
+                            relativeUrl="/application/parking-complaints"
                             bgColour="#98C5C2" />
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-evenly", flexDirection: "row", flexWrap: "wrap" }}>
                         <ApplicationCard title="Parking Allocation"
                             content="Allocate a parking spot to a car"
-                            relativeUrl="/parking-allocation"
+                            relativeUrl="/application/parking-allocation"
                             bgColour="#D5C4E7" />
                         <ApplicationCard title="My Car"
                             content="Register your car in the system"
-                            relativeUrl="/my-car"
+                            relativeUrl="/application/my-car"
                             bgColour="#D5E6F6" />
                     </div>
                 </Panel>

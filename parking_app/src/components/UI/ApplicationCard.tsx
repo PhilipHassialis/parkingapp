@@ -1,5 +1,5 @@
 import { Link } from "react-router"
-import { ApplicationCardContent } from "./uicomponents-types"
+import { ApplicationCardContent } from "../../types/uicomponents-types"
 
 const ApplicationCard = ({ title, content, relativeUrl, bgColour }: ApplicationCardContent) => {
     return (

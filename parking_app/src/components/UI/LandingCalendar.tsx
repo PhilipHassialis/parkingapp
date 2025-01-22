@@ -1,7 +1,7 @@
 import { useState } from "react";
 import LandingCalendarItem from "./LandingCalendarItem";
 import LandingCalendarItemParkingInfo from "./LandingCalendarItemParkingInfo";
-import { CalendarItemParkingInfoProps } from "./uicomponents-types";
+import { CalendarItemParkingInfoProps } from "../../types/uicomponents-types";
 import { mockParkingEvent } from "../../data/mockData";
 
 const LandingCalendar = () => {

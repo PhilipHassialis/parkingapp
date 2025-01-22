@@ -1,4 +1,4 @@
-import { User } from "./uicomponents-types";
+import { User } from "../../types/uicomponents-types";
 
 const UserHeroCard = ({ user, isLanding }: { user: User, isLanding:boolean }) => {
     return (

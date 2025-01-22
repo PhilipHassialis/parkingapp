@@ -2,39 +2,39 @@
 export const mockMenuItems = [
     {
         menuEntry: "Parking Allocations",
-        relativeUrl: "/parking-allocations",
+        relativeUrl: "/application/parking-allocations",
     },
     {
         menuEntry: "My Car",
-        relativeUrl: "/my-car",
+        relativeUrl: "/application/my-car",
     },
     {
         menuEntry: "Parking Complaints",
-        relativeUrl: "/parking-complaints",
+        relativeUrl: "/application/parking-complaints",
     },
     {
         menuEntry: "Menu 04",
-        relativeUrl: "/menu04",
+        relativeUrl: "/application/menu04",
     },
     {
         menuEntry: "Menu 05",
-        relativeUrl: "/menu05",
+        relativeUrl: "/application/menu05",
     },
     {
         menuEntry: "Menu 06",
-        relativeUrl: "/menu06",
+        relativeUrl: "/application/menu06",
     },
     {
         menuEntry: "Menu 07",
-        relativeUrl: "/menu07",
+        relativeUrl: "/application/menu07",
     },
     {
         menuEntry: "Menu 08",
-        relativeUrl: "/menu08",
+        relativeUrl: "/application/menu08",
     },
     {
         menuEntry: "Menu 09",
-        relativeUrl: "/menu09",
+        relativeUrl: "/application/menu09",
     }
 ]
 

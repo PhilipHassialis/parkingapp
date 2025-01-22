@@ -1,5 +1,5 @@
 import { faExclamationCircle, faExclamationTriangle, faInfoCircle, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { NotificationProps } from "./uicomponents-types";
+import { NotificationProps } from "../../types/uicomponents-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Notification = ({ title, type }: NotificationProps) => {

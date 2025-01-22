@@ -36,3 +36,8 @@ export type CalendarItemParkingInfoProps = {
     zone: string;
     position: string;
 }
+
+export type SideBarMenuItemProps = {
+    title: string;
+    relativeUrl: string;
+}

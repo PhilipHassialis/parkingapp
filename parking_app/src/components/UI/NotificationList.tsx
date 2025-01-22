@@ -1,4 +1,4 @@
-import { NotificationProps } from "./uicomponents-types";
+import { NotificationProps } from "../../types/uicomponents-types";
 import Notification from "./Notification";
 import { groupBy } from "lodash";
 

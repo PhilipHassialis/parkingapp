@@ -1,4 +1,4 @@
-import { CalendarItemParkingInfoProps } from "./uicomponents-types";
+import { CalendarItemParkingInfoProps } from "../../types/uicomponents-types";
 
 const LandingCalendarItemParkingInfo = ({ item }: { item?: CalendarItemParkingInfoProps }) => {
 

@@ -1,5 +1,5 @@
 import { faCircle, faSquareParking } from "@fortawesome/free-solid-svg-icons";
-import { LandingCalendarItemProps } from "./uicomponents-types";
+import { LandingCalendarItemProps } from "../../types/uicomponents-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const LandingCalendarItem = ({ date, hasParkingEvent, onClickFn }: LandingCalendarItemProps) => {

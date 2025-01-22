@@ -1,4 +1,4 @@
-import { PanelTitleProps } from "./uicomponents-types";
+import { PanelTitleProps } from "../../types/uicomponents-types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const PanelTitle = ({icon, title}: PanelTitleProps) => {
