@@ -82,3 +82,5 @@ export const mockNotifications = [
     date: string,
     type: "info" | "warning" | "error" | "success",
 }[]
+
+export const mockParkingEvent =(date: Date) => date.getDate() % 2 === 0 ? {zone: "A", position: `${date.getDate()%11+1}`} : undefined;

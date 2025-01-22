@@ -31,3 +31,8 @@ export type LandingCalendarItemProps = {
     hasParkingEvent: boolean;
     onClickFn?: (parkingEventDate: Date) => void;
 }
+
+export type CalendarItemParkingInfoProps = {
+    zone: string;
+    position: string;
+}

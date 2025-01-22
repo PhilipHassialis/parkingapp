@@ -8,7 +8,7 @@ const LandingCalendarItem = ({ date, hasParkingEvent, onClickFn }: LandingCalend
     const isActive = date.getDate() === today.getDate() && date.getMonth() === today.getMonth() && date.getFullYear() === today.getFullYear();
 
     return (<div className="landing-calendar-item-container">
-        <div className={`landing-calendar-item ${isActive ? "currentDay" : "otherDay"}`} >
+        <div className={`landing-calendar-item ${isActive ? "currentDay" : "otherDay"}`} onClick={() => { onClickFn && onClickFn(date) }} >
             <h3 className={`landing-calendar-item-dayname ${isActive ? "currentDay" : "otherDay"}`}>{date.toLocaleDateString("en-us", { "weekday": "short" })}</h3>
             <h3>{date.getDate()}</h3>
         </div>
