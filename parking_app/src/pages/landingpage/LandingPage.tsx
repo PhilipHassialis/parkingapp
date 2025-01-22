@@ -15,7 +15,7 @@ const LandingPage = () => {
         <div style={{ display: "flex", justifyContent: "center" }}>
             <div className="landing-page-left content">
                 <Panel bgColor="white">
-                <UserHeroCard user={{ name: "The user name", role: "The user role", image: "" }} isLanding={true} />
+                <UserHeroCard user={{ name: "The user name", role: "The user role", image: "", email:"testuser@userland.org" }} isLanding={true} />
                 </Panel>
                 <LandingMenu />
             </div>

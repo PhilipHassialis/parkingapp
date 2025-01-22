@@ -3,6 +3,7 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 export type User = {
     name: string;
     role: string;
+    email: string;
     image: string;
 }
 
