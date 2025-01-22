@@ -10,7 +10,6 @@ import UserHeroCard from "../../components/UI/UserHeroCard";
 
 const LandingPage = () => {
 
-
     return (<>
         <div style={{ display: "flex", justifyContent: "center" }}>
             <div className="landing-page-left content">

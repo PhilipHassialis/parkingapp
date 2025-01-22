@@ -6,6 +6,7 @@ import HomePage from "./pages/homepage/HomePage";
 import MyCar from "./pages/mycar/MyCar";
 import ParkingComplaints from "./pages/parkingcomplaints/ParkingComplaints";
 import ParkingAllocations from "./pages/parkingallocations/ParkingAllocations";
+import LoginPage from "./pages/login/LoginPage";
 
 const ParkingRoutes = () => {
 
@@ -20,7 +21,7 @@ const ParkingRoutes = () => {
                 <Route path="parking-complaints" element={<ParkingComplaints />} />
                 <Route path="parking-allocations" element={<ParkingAllocations />} />
             </Route>
-            
+            <Route path="login" element = {<LoginPage />} />
         </Routes>
     )
     
