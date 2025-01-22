@@ -1,10 +1,13 @@
+import ApplicationNavBarIcons from "./UI/ApplicationNavBarIcons";
 import Logo from "./UI/Logo";
 
 const ApplicationNavBar = () => {
 
     return (
-        <nav className="applicationnavbar">
+        <nav className="application-navbar">
             <Logo />
+            <div></div>
+            <ApplicationNavBarIcons />
         </nav>
     )
 

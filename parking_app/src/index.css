@@ -44,7 +44,7 @@ body {
     text-shadow: 2px 2px lightskyblue
 }
 
-.applicationnavbar {
+.application-navbar {
     background-color: rgb(230,230,230);
     color: rgb(33, 84, 135);
     padding: 10px;
@@ -53,6 +53,19 @@ body {
     display: block;
     margin: 10px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.application-navbar-icons {
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: rgb(33, 84, 135);
+    width: 8em;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .applications-card-row {
