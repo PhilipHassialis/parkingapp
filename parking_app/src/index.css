@@ -272,3 +272,44 @@ body {
     height: 4em;
 }
 
+.input-box-container {
+    padding: 0.5em;
+    background-color: rgb(238,238,238);
+    margin: 1px solid rgb(231,231,231);
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    color: rgb(33, 84, 135);
+}
+
+.input-box-container input {
+    background-color: rgb(238,238,238);
+    border: none;
+    color: rgb(33, 84, 135);
+}
+
+.input-box-container input:focus {
+    outline: none;
+}
+
+.password-box-container {
+    padding: 0.5em;
+    background-color: rgb(238,238,238);
+    margin: 1px solid rgb(231,231,231);
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    color: rgb(33, 84, 135);
+
+}
+
+.password-box-container input {
+    background-color: rgb(238,238,238);
+    border: none;
+    color: rgb(33, 84, 135);
+    width: calc(100% - 2em);
+}
+
+.password-box-container input:focus {
+    outline: none;
+}

@@ -7,14 +7,19 @@ import NotificationList from "../../components/UI/NotificationList";
 import LandingMenu from "../../components/UI/LandingMenu";
 import LandingCalendar from "../../components/UI/LandingCalendar";
 import UserHeroCard from "../../components/UI/UserHeroCard";
+import useUserStore from "../../data/userData";
 
 const LandingPage = () => {
+
+    const userStore = useUserStore();
+    const userName = userStore.user ? userStore.user?.name : "";
+    const userEmail = userStore.user ? userStore.user?.email : "";
 
     return (<>
         <div style={{ display: "flex", justifyContent: "center" }}>
             <div className="landing-page-left content">
                 <Panel bgColor="white">
-                <UserHeroCard user={{ name: "The user name", role: "The user role", image: "", email:"testuser@userland.org" }} isLanding={true} />
+                <UserHeroCard user={{ name: userName , role: "The user role", image: "", email: userEmail }} isLanding={true} />
                 </Panel>
                 <LandingMenu />
             </div>
