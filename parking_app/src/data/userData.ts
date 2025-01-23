@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { devtools, persist, createJSONStorage } from 'zustand/middleware'
+import { persist, createJSONStorage } from 'zustand/middleware'
 import { User } from '../types/uicomponents-types'
 
 interface UserState {
@@ -9,7 +9,7 @@ interface UserState {
 
 const useUserStore = create<UserState>()(
     persist(
-        (set, get) => ({
+        (set) => ({
             user: null,
             setUser: (currentUser: User | null) => set(() => ({ user: currentUser })),
         }),
