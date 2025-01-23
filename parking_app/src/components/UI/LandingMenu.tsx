@@ -1,9 +1,18 @@
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { mockMenuItems } from "../../data/mockData";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
+import useUserStore from "../../data/userData";
 
 const LandingMenu = () => {
+
+    const userStore = useUserStore();
+    const navigate = useNavigate();
+
+    const logout = () => {
+        userStore.setUser(null);
+        navigate("/login");
+    }
 
     return (<div className="landing-menu">
         <div>
@@ -14,7 +23,7 @@ const LandingMenu = () => {
             </div>))}
         </div>
         <div></div>
-        <div className="landing-menu-logout">
+        <div className="landing-menu-logout" onClick={logout}>
             <FontAwesomeIcon icon={faRightFromBracket} />
             {" "}
             Logout
